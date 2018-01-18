@@ -98,10 +98,10 @@ article{
 
 @keyframes change-search-field{
 	from{
-		height: 100vh;
+		min-height: 100vh;
 	}
 	to{
-		height: 15vh;
+		min-height: 15vh;
 	}
 }
 
