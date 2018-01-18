@@ -17,12 +17,17 @@
     		throw new Error( 'Network response was not ok: ' + response.statusText );
     		search_results.innerHTML = "Sorry, no articles can be found";
 		}).then( function (data) {
-				for(let j=0; j<data[1].length; j++){
-					description = data[2][j];
-					if(description == "")
-						description = "No description exist";
-
-					search_results.innerHTML += '<article><a href="'+data[3][j]+'" target="_blank"><h1 class="article-heading">'+data[1][j]+'</h1></a><p class="article-text">'+description+'</p></article>';
+				if(data.length == 0){
+					search_results.innerHTML = "No resutls exists for your search query";
+				}
+				else{
+					for(let j=0; j<data[1].length; j++){
+						description = data[2][j];
+						if(description == "")
+							description = "No description exist";
+					
+						search_results.innerHTML += '<article><a href="'+data[3][j]+'" target="_blank"><h1 class="article-heading">'+data[1][j]+'</h1></a><p class="article-text">'+description+'</p></article>';
+					}
 				}
 
 				document.querySelector('.search-field').classList.add("reduce-height");
