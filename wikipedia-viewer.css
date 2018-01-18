@@ -107,10 +107,10 @@ article{
 
 @keyframes change-search-results{
 	from{
-		min-height: 0;
+		height: 0;
 	}
 	to{
-		min-height: 85vh;
+		height: 85vh;
 	}
 }
 
