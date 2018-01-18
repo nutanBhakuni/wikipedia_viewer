@@ -132,6 +132,7 @@ article{
 
 	.random-article{
 		margin-top: 3%;
+		font-weight: bold;
 	}
 
 	.search-results{
@@ -159,7 +160,7 @@ article{
 	.random-article{
 		margin-top: 4%;
 		font-size: 0.9em;
-		font-weight: lighter;
+		font-weight: bold;
 	}
 
 	.search-results{
