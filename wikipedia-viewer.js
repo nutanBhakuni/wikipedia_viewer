@@ -18,7 +18,8 @@
     		search_results.innerHTML = "Sorry, no articles can be found";
 		}).then( function (data) {
 				if(data.length == 0){
-					search_results.innerHTML = "No resutls exists for your search query";
+					//search_results.innerHTML = "No resutls exists for your search query";
+					console.log("Nothing");
 				}
 				else{
 					for(let j=0; j<data[1].length; j++){
