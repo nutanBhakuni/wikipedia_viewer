@@ -111,10 +111,10 @@ article:hover{
 
 @keyframes change-search-results{
 	from{
-		height: 0;
+		min-height: 0;
 	}
 	to{
-		height: 85vh;
+		min-height: 85vh;
 	}
 }
 
