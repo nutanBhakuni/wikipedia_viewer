@@ -139,6 +139,10 @@ article{
 		padding-top: 4%;
 	}
 
+	.search-query{
+		line-height: 3em;
+	}
+	
 	article{
 		padding: 2.5% 0.6%;
 	}
@@ -165,6 +169,10 @@ article{
 
 	.search-results{
 		padding-top: 4%;
+	}
+	
+	.search-query{
+		line-height: 3em;
 	}
 
 	article{
