@@ -139,6 +139,10 @@ article:hover{
 	article{
 		padding: 2.5% 0.6%;
 	}
+	
+	article:hover{
+		transform: none;
+	}
 }
 
 @media screen and (max-width: 425px){
@@ -162,5 +166,9 @@ article:hover{
 
 	article{
 		padding: 3% 0.6%;
+	}
+	
+	article:hover{
+		transform: none;
 	}
 }
