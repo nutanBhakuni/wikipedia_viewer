@@ -119,6 +119,12 @@ article:hover{
 	}
 }
 
+@media handheld{
+	article:hover{
+		transform:none;
+	}
+}
+
 @media screen and (min-width: 426px) and (max-width: 768px){
 	.search-form{
 		margin-top: 8%;
