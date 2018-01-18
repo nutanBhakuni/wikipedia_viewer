@@ -96,6 +96,10 @@ article{
 	animation: change-search-results 0.3s linear 1 forwards;
 }
 
+.error-para{
+	text-align: center;
+}
+
 @keyframes change-search-field{
 	from{
 		min-height: 100vh;
